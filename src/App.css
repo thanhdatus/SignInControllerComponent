@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.HeaderItem {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.sign-btn {
+  width: 80px;
+  height: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+/* .FormItem > div:first-child {
+  margin: auto;
+  height: 40px;
+  width: 284px;
+  border: 1px solid #dcd7d7;
+} */
+
+.FormItem {
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+}
+
+.FormItem input {
+  margin: 20px 0px;
+  display: block;
+  font-size: 30px;
+}
+
+.FormItem button {
+  width: 100%;
+  height: 40px;
+  background-color: #00bd56;
+  color: #fcfcfc;
+  font-size: 15px;
+}
+
+.FormItem > div > input {
+  display: inline;
+  margin-right: 0.5rem;
+}
+
+.FormItem > div {
+  margin: auto;
+  width: fit-content;
+}
+
+.FormItem > div > a {
+  display: inline-block;
+  margin: 0px 5px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: black;
+}
+
+.FormItem > div:first-child > span {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: rgba(85, 85, 85, 0.7);
 }
